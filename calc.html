@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+    <div id="bg">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <input id="kolom" type="text" value="" disabled>
+                    </td>
+                    <td>
+                        <button id="del"><span class="iconify" data-icon="akar-icons:backspace" data-inline="false"></span></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <table id="opr">
+                    <tr>
+                        <td><button id="tambah">+</button></td>
+                        <td><button id="kurang">-</button></td>
+                        <td><button id="kali">*</button></td>
+                        <td><button id="bagi">/</button></td>
+                    </tr>
+        </table>
+        <table id="number">
+                    <tr>
+                        <td><button onclick="document.getElementById('kolom').value += '1'">1</button></td>
+                        <td><button onclick="document.getElementById('kolom').value += '2'">2</button></td>
+                        <td><button onclick="document.getElementById('kolom').value += '3'">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="document.getElementById('kolom').value += '4'">4</button></td>
+                        <td><button onclick="document.getElementById('kolom').value += '5'">5</button></td>
+                        <td><button onclick="document.getElementById('kolom').value += '6'">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="document.getElementById('kolom').value += '7'">7</button></td>
+                        <td><button onclick="document.getElementById('kolom').value += '8'">8</button></td>
+                        <td><button onclick="document.getElementById('kolom').value += '9'">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="document.getElementById('kolom').value += '0'">0</button></td>
+                        <td><button id="titik">.</button></td>
+                        <td><button onclick="document.getElementById('kolom').value = ''">C</button></td>
+                    </tr>
+                </table>
+                <button id="result" onclick="main()">=</button>
+        </div>
+</body>
+<script src="calc.js"></script>
+</html>

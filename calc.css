@@ -1,0 +1,87 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    body{
+            overflow: hidden;}
+        *{
+            font-size: 30px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        button{
+            padding: 10%;
+            border-radius: 4px;
+            font-size: 30px;
+            margin: 10% 0 10% 0;
+            width: 60px;
+            border: 3px solid #45526c;
+            color: #2d343f;
+        }
+        table, #kolom{
+            margin: auto;
+            margin-left: -2px;
+        }
+        #bg{
+            margin: auto;
+            text-align: center;
+            width: 250px;
+            height: 420px;
+            padding: 20px 30px 40px 20px;
+            border: 2px solid #45526c;
+            background-color: white;
+            background-color: #f8f5f1;
+            border-radius: 5px;
+        }
+        #result{
+            border: 3px solid #45526c;
+            color: #45526c;
+            display: block;
+            background-color: transparent;
+            height: 271px;
+            margin: 8px 0 0 193px;
+            padding: 0;
+            position: absolute;
+        }
+        #result:hover{
+            background-color:#45526c;
+            color: #f8f5f1;
+        }
+        #opr{
+            margin-top: 10px;
+            display: block;
+        }
+        #opr button{
+            background-color: #f8a488;
+            
+        }
+        #opr button:hover{
+            border: 3px solid#f8a488;
+            background-color: transparent;
+        }
+        #number{
+            float: left;
+        }
+        #number button{
+            background-color: #58aa97;
+        }
+        #number button:hover{
+            border: 3px solid#58aa97;
+            background-color: transparent;
+        }
+        #del{
+            padding: 6px;
+            font-size:20px;
+            color:#45526c
+        }
+        #del:active{
+            background-color: #45526c;
+            color:#f8f5f1
+        }
+        #kolom{
+            border: none;
+            border-radius: 4px;
+            display: inline;
+            padding: 8px;
+            border: 3px solid #45526c;
+            color: #45526c;
+            background-color: #f8f5f1;
+            width: 169px;
+            font-size:24px;
+        }
