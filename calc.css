@@ -3,6 +3,9 @@
             font-size: 30px;
             font-family: 'Fjalla One', sans-serif;
         }
+        body{
+            background-color: #45526c;
+        }
         button{
             padding: 10%;
             border-radius: 4px;
